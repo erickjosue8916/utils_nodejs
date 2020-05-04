@@ -1,0 +1,21 @@
+{
+  "name": "utils",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test:process": "node ./test/process/index.js",
+    "test:arrays": "node ./test/arrays/index.js",
+    "test:objects": "node ./test/objects/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3"
+  }
+}
